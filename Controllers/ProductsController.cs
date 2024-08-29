@@ -18,7 +18,7 @@ namespace BranchesConflictTest.Controllers
         [HttpGet]
         public IActionResult GetProduct()
         {
-            return Ok(_productService.GetProductDetails());
+            return Ok("Modified product details in feature/products branch");
         }
     }
 }
