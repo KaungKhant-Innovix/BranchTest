@@ -29,6 +29,7 @@ builder.Services.AddSwaggerGen(c =>
 
 //Comment 2
 
+//Comment 3
 
 // Register custom services
 builder.Services.AddScoped<BranchesConflictTest.Services.ProductService>();
