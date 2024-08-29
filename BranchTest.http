@@ -1,0 +1,6 @@
+@BranchTest_HostAddress = http://localhost:5279
+
+GET {{BranchTest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
