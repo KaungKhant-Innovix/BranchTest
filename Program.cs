@@ -25,6 +25,8 @@ builder.Services.AddSwaggerGen(c =>
 
 //Comment to delete dev branch
 
+//Comment 1
+
 // Register custom services
 builder.Services.AddScoped<BranchesConflictTest.Services.ProductService>();
 builder.Services.AddScoped<BranchesConflictTest.Services.OrderService>();
