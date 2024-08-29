@@ -60,7 +60,7 @@ We decided to split by branches for each feature so I'll write down commands for
 <pre><code>git push</code></pre>
 
 <h4> If there are conflicts, resolve them first, then start the commit process again </h4>
-<pre><code>git add.
+<pre><code>git add .
 git commit -m "Resolved conflicts"
 git push origin main
 </code></pre>
