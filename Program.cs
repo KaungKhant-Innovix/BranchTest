@@ -18,6 +18,9 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
+//comment added by dev_kk
+//another comment added by dev_kk
+
 // Register custom services
 builder.Services.AddScoped<BranchesConflictTest.Services.ProductService>();
 builder.Services.AddScoped<BranchesConflictTest.Services.OrderService>();
